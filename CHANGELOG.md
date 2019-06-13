@@ -4,6 +4,6 @@ All notable changes to the "jsx-control-snippets" extension will be documented i
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [1.0.0]
 
-- Initial release
+- Initial release of jsx-control-snippets

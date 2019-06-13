@@ -10,7 +10,8 @@
     "url": "git+https://github.com/little-tomorrow/vscode-jsx-control.git"
   },
   "scripts": {},
-	"publisher": "little-tomorrow",
+  "publisher": "little-tomorrow",
+  "icon": "images/jsx.png",
 	"engines": {
 		"vscode": "^1.28.0"
 	},
