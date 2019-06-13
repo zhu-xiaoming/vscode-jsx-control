@@ -13,4 +13,12 @@ In order to install an extension you need to launch the Command Pallete (Ctrl + 
 - TypeScript React (.tsx)
 
 ## Usage
+![create Choose component](images/choosec.gif)
 
+## snippets
+| Trigger    | Content                   |
+|-----------:|---------------------------|
+| `ifc→`     | Create an If component    |
+| `choosec→` | Create a Choose Component |
+| `forc→`    | Create a For Component    |
+| `withc→`   | Create a With Component   |

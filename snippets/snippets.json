@@ -20,7 +20,7 @@
 			"\t</Otherwise>",
 			"</Choose>"
 		],
-		"description": "Create an Choose component from JSX Control Statements"
+		"description": "Create a Choose component from JSX Control Statements"
 	},
 	"For Component": {
 		"prefix": "forc",
@@ -33,7 +33,7 @@
 			"\t<${4:Component}>$5</${4:Component}>",
 			"</For>"
 		],
-		"description": "Create an For component from JSX Control Statements"
+		"description": "Create a For component from JSX Control Statements"
 	},
 	"With Component": {
 		"prefix": "withc",
@@ -42,6 +42,6 @@
 			"\t<${2:Component}>$3</${2:Component}>",
 			"</With>"
 		],
-		"description": "Create an With component from JSX Control Statements"
+		"description": "Create a With component from JSX Control Statements"
 	}
 }
