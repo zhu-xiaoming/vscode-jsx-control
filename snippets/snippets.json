@@ -1,0 +1,47 @@
+{
+  "If Component": {
+		"prefix": "ifc",
+		"body": [
+			"<If condition={${1:condition}}>",
+			"\t<${2:Component}>$3</${2:Component}>",
+			"</If>"
+		],
+		"description": "Create an If component from JSX Control Statements"
+	},
+	"Choose Component": {
+		"prefix": "choosec",
+		"body": [
+			"<Choose>",
+			"\t<When condition={${1:condition}}>",
+			"\t\t<${2:Component}>$3</${2:Component}>",
+			"\t</When>",
+			"\t<Otherwise>",
+			"\t\t<${4:Component}>$5</${4:Component}>",
+			"\t</Otherwise>",
+			"</Choose>"
+		],
+		"description": "Create an Choose component from JSX Control Statements"
+	},
+	"For Component": {
+		"prefix": "forc",
+		"body": [
+			"<For",
+			"\tof={${1:items}}",
+			"\teach=\"${2:item}\"",
+			"\tindex=\"${3:idx}\"",
+			">",
+			"\t<${4:Component}>$5</${4:Component}>",
+			"</For>"
+		],
+		"description": "Create an For component from JSX Control Statements"
+	},
+	"With Component": {
+		"prefix": "withc",
+		"body": [
+			"<With ${1:params}={${1:params}}>",
+			"\t<${2:Component}>$3</${2:Component}>",
+			"</With>"
+		],
+		"description": "Create an With component from JSX Control Statements"
+	}
+}
